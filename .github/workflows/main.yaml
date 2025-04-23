@@ -15,8 +15,6 @@ on:
 
 jobs:
   test:
-    needs:
-      - quality-checks
     strategy:
       fail-fast: false
       matrix:
